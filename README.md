@@ -8,6 +8,8 @@ This project analyzes delays, cancellations, diversions, and operational pattern
 
 - **Source:** [BTS Reporting Carrier On-Time Performance](https://transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ)
 - **Initial period:** January 2026
+- **Downloaded subset:** 544,003 flight records with 36 selected fields
+- **Sample data:** A random sample of 1,000 records is available in [`data/samples/flights_sample_1000.csv`](data/samples/flights_sample_1000.csv)
 - **Repository policy:** The full raw dataset is kept out of Git because of its size. Use `data/samples/` for small shareable examples; keep downloaded and generated data in the ignored raw/processed locations.
 - **Field reference:** [Data Dictionary](docs/Data_Dictionary.md)
 
