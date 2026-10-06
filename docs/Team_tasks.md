@@ -12,11 +12,20 @@ The project examines the reliability of domestic flights in the United States. T
 | Main Area | Deliverables | Status |
 |---|---|---|
 | Dataset preparation and documentation | Dataset description, data dictionary, data cleaning, sample data, and GitHub documentation | In progress |
-| Database design | Functional dependencies, normalization to 3NF, relational schema, and ER/EER diagram | Not started |
-| Database implementation | MySQL tables, primary and foreign keys, data import, testing, and row-count evidence | Not started |
-| SQL analysis and presentation | Coordinate SQL queries, interpret query results, document challenges and next steps, and organize presentation slides | Not started |
+| Database design | Functional dependencies, normalization to 3NF, relational schema, and ER/EER diagram | In progress |
+| Database implementation | MySQL tables, primary and foreign keys, data import, testing, and row-count evidence | In progress |
+| SQL analysis and presentation | Coordinate SQL queries, interpret query results, document challenges and next steps, and organize presentation slides | Presentation started; SQL pending |
 
 All members will also create their own SQL queries, contribute work through GitHub, review the database design, and participate in the presentation.
+
+## Project Workflow
+
+1. Prepare, sample, and profile the raw dataset.
+2. Finalize the 3NF schema and ER/EER diagram.
+3. Create and populate the normalized MySQL tables.
+4. Validate row counts, primary keys, and foreign keys.
+5. Complete four SQL queries per member.
+6. Combine query results, screenshots, and interpretations into the presentation.
 
 ## Research and SQL Tasks
 
