@@ -1,0 +1,33 @@
+# Keep large source and generated datasets out of Git.
+# Put small, intentionally shareable examples in data/samples/.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Local database files and dumps.
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql.gz
+
+# Python environments and generated files.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local credentials and configuration.
+.env
+.env.*
+!.env.example
+
+# Operating system files.
+.DS_Store
+Thumbs.db
+
+# Local-only dataset exploration archive. Contains raw data and exploratory work.
+/archive/local_exploration/

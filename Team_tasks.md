@@ -21,14 +21,14 @@ All members will also create their own SQL queries, contribute work through GitH
 ## Research and SQL Tasks
 
 Each team member will develop two research questions within an assigned analysis area. 
-Each member will use at least two basic and two advanced SQL queries to investigate these questions for the mid-project presentation.
+Each member will use at least two basic and two advanced SQL queries to investigate these questions for the mid-project presentation. The team will decide together who takes each analysis area.
 
 | Member | Analysis Area | Research Questions | Minimum SQL Queries |
 |---|---|---:|---:|
-| Member 1 | Airline delay and on-time performance | 2 | 4 |
-| Member 2 | Airport and route performance | 2 | 4 |
-| Member 3 | Cancellation and diversion analysis | 2 | 4 |
-| Member 4 | Delay causes and day-of-week patterns | 2 | 4 |
+| Unassigned | Airline delay and on-time performance | 2 | 4 |
+| Unassigned | Airport and route performance | 2 | 4 |
+| Unassigned | Cancellation and diversion analysis | 2 | 4 |
+| Unassigned | Delay causes and day-of-week patterns | 2 | 4 |
 
 ## Shared Team Responsibilities
 
