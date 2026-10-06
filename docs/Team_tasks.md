@@ -36,8 +36,14 @@ Each member will use at least two basic and two advanced SQL queries to investig
 |---|---|---:|---:|
 | Unassigned | Airline delay and on-time performance | 2 | 4 |
 | Unassigned | Airport and route performance | 2 | 4 |
-| Unassigned | Cancellation and diversion analysis | 2 | 4 |
+| Yanyu Zhu | Cancellation and diversion analysis | 2 | 4 |
 | Unassigned | Delay causes and day-of-week patterns | 2 | 4 |
+
+Tasks:
+- Develop two research questions
+- Write two basic SQL queries
+- Write two advanced SQL queries
+- Include results and interpretations
 
 ## Shared Team Responsibilities
 
