@@ -25,8 +25,8 @@ The complete raw dataset is not stored in this repository because of its size. A
 
 ## Team Members
 
-- Name 1
-- Name 2
-- Name 3
+- Arin Gadre
+- Bao Nguyen
+- Audrey Wu
 - Yanyu Zhu
 
