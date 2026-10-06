@@ -1,19 +1,36 @@
-# data201project
-Class project for DATA 201 @SJSU
+# DATA 201 Group Project
 
-# U.S. Domestic Flight Reliability Analysis
+## U.S. Domestic Flight Reliability Analysis
 
-## Project Overview
-
-This project analyzes delays, cancellations, and operational patterns in U.S. domestic flights. We compare flight performance across airlines, airports, routes, and time periods, and examine the major causes of delays.
+This project analyzes delays, cancellations, diversions, and operational patterns in U.S. domestic flights using the U.S. Bureau of Transportation Statistics (BTS) Reporting Carrier On-Time Performance dataset.
 
 ## Dataset
-- Source: U.S. Bureau of Transportation Statistics
-- Dataset: Reporting Carrier On-Time Performance
-- Initial period: January 2026
-- Source URL: https://transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ
 
-The complete raw dataset is not stored in this repository because of its size. A smaller sample is provided for reference.
+- **Source:** [BTS Reporting Carrier On-Time Performance](https://transtats.bts.gov/DL_SelectFields.aspx?gnoyr_VQ=FGJ)
+- **Initial period:** January 2026
+- **Repository policy:** The full raw dataset is kept out of Git because of its size. Use `data/samples/` for small shareable examples; keep downloaded and generated data in the ignored raw/processed locations.
+- **Field reference:** [Data Dictionary](docs/Data_Dictionary.md)
+
+## Repository Map
+
+| Location | Put here |
+|---|---|
+| `data/raw/` | Downloaded source files; local and ignored by Git |
+| `data/processed/` | Cleaned or transformed datasets; local and ignored by Git |
+| `data/samples/` | Small examples suitable for sharing and testing |
+| `database/` | MySQL schema and database implementation materials |
+| `database/erd/` | ERD and database design diagrams |
+| `queries/` | The team MySQL analysis queries |
+| `scripts/` | Data import, cleaning, or validation scripts |
+| `report/` | Written analysis and report materials |
+| `report/figures/` | Figures used in the report |
+| `docs/` | Dataset documentation, project planning notes, and requirements references |
+
+The local `archive/local_exploration/` directory contains exploratory reference work and is ignored by Git. It is not part of the shared project deliverables.
+
+## Work Tracking
+
+Use the GitHub Project board as the live Kanban tracker for assignments and progress. [Team Tasks](docs/Team_tasks.md) is a planning reference; keep task status current on the board.
 
 ## Research Questions
 
@@ -29,4 +46,3 @@ The complete raw dataset is not stored in this repository because of its size. A
 - Bao Nguyen
 - Audrey Wu
 - Yanyu Zhu
-
