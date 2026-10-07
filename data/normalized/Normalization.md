@@ -12,6 +12,12 @@ The current design includes the following dependencies:
 - `FlightDate → DayOfWeek`
 - `(OriginAirportID, DestinationAirportID) → Distance`
 
+## Normalization Process
+
+- **1NF:** The cleaned data contains atomic values and no repeating groups.
+- **2NF:** `FlightID` is a single-column primary key, so there are no partial dependencies.
+- **3NF:** Airline, airport, date, and route information should be separated because they depend on their own identifiers rather than directly on `FlightID`.
+
 ## Proposed 3NF Tables
 
 - `Airline(AirlineID PK, CarrierCode)`
@@ -20,11 +26,6 @@ The current design includes the following dependencies:
 - `Route(RouteID PK, OriginAirportID FK, DestinationAirportID FK, Distance)`
 - `Flight(FlightID PK, FlightDate FK, AirlineID FK, RouteID FK, flight number, tail number, times, delays, cancellation, and diversion information)`
 
-## Normalization Explanation
-
-- **1NF:** The cleaned data contains atomic values and no repeating groups.
-- **2NF:** `FlightID` is a single-column primary key, so there are no partial dependencies.
-- **3NF:** Airline, airport, date, and route information should be separated because they depend on their own identifiers rather than directly on `FlightID`.
 
 ## Tasks
 
