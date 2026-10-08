@@ -1,35 +1,17 @@
-DAY_OF_WEEK	weekday_name	operated_flights	avg_arrival_delay_min	pct_15min_late
-1	Monday	68876	12.81	24.48
-2	Tuesday	62650	1.37	15.78
-3	Wednesday	64382	0.54	15.30
-4	Thursday	89903	3.79	19.18
-5	Friday	91718	6.12	20.34
-6	Saturday	74707	6.93	22.53
-7	Sunday	64986	13.75	27.92
-DAY_OF_WEEK	weekday_name	operated_flights	carrier_delay_min	weather_delay_min	nas_delay_min	security_delay_min	late_aircraft_delay_min	total_reported_cause_min
-1	Monday	68876	498041.00	200201.00	258385.00	2288.00	521203.00	1480118.00
-2	Tuesday	62650	352041.00	93509.00	100323.00	825.00	244247.00	790945.00
-3	Wednesday	64382	319159.00	72108.00	116522.00	550.00	242712.00	751051.00
-4	Thursday	89903	468381.00	61064.00	197608.00	1059.00	451905.00	1180017.00
-5	Friday	91718	506239.00	104530.00	243232.00	1282.00	504811.00	1360094.00
-6	Saturday	74707	448259.00	94842.00	238253.00	3725.00	390273.00	1175352.00
-7	Sunday	64986	439058.00	150654.00	311485.00	1750.00	486868.00	1389815.00
-DAY_OF_WEEK	weekday_name	weekday_avg_delay_min	overall_avg_delay_min	difference_from_overall_min
-7	Sunday	13.75	6.41	7.34
-1	Monday	12.81	6.41	6.40
-6	Saturday	6.93	6.41	0.52
-DAY_OF_WEEK	weekday_name	cause_rank	cause	reported_delay_minutes
-1	Monday	1	Late aircraft	521203.00
-1	Monday	2	Carrier	498041.00
-2	Tuesday	1	Carrier	352041.00
-2	Tuesday	2	Late aircraft	244247.00
-3	Wednesday	1	Carrier	319159.00
-3	Wednesday	2	Late aircraft	242712.00
-4	Thursday	1	Carrier	468381.00
-4	Thursday	2	Late aircraft	451905.00
-5	Friday	1	Carrier	506239.00
-5	Friday	2	Late aircraft	504811.00
-6	Saturday	1	Carrier	448259.00
-6	Saturday	2	Late aircraft	390273.00
-7	Sunday	1	Late aircraft	486868.00
-7	Sunday	2	Carrier	439058.00
+day	mean
+1	12.814769
+2	1.365028
+3	0.536252
+4	3.789284
+5	6.119213
+6	6.926004
+7	13.750254
+carrier	late_aircraft	nas	weather	security
+3031178.00	2842019.00	1465808.00	776908.00	11479.00
+day	mean
+7	13.750254
+1	12.814769
+6	6.926004
+DAY_OF_WEEK	SUM(f.LATE_AIRCRAFT_DELAY)
+1	521203.00
+7	486868.00
