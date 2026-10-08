@@ -68,7 +68,7 @@ INSERT INTO CleanFlight (
     LATE_AIRCRAFT_DELAY
 )
 SELECT
-    CAST(NULLIF(TRIM(DAY_OF_WEEK), '') AS UNSIGNED),
+    CAST(NULLIF(TRIM(DAY_OF_WEEK), '') AS DECIMAL(10,2)),
 
     STR_TO_DATE(
         NULLIF(TRIM(FL_DATE), ''),
@@ -79,38 +79,38 @@ SELECT
 
     CAST(
         NULLIF(TRIM(OP_CARRIER_AIRLINE_ID), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CAST(
         NULLIF(TRIM(OP_CARRIER_FL_NUM), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     NULLIF(TRIM(TAIL_NUM), ''),
 
     CAST(
         NULLIF(TRIM(ORIGIN_AIRPORT_ID), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     NULLIF(TRIM(ORIGIN), ''),
 
     CAST(
         NULLIF(TRIM(DEST_AIRPORT_ID), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     NULLIF(TRIM(DEST), ''),
 
     CAST(
         NULLIF(TRIM(CRS_DEP_TIME), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CAST(
         NULLIF(TRIM(DEP_TIME), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CAST(
@@ -120,12 +120,12 @@ SELECT
 
     CAST(
         NULLIF(TRIM(CRS_ARR_TIME), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CAST(
         NULLIF(TRIM(ARR_TIME), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CAST(
@@ -135,14 +135,14 @@ SELECT
 
     CAST(
         NULLIF(TRIM(CANCELLED), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     NULLIF(TRIM(CANCELLATION_CODE), ''),
 
     CAST(
         NULLIF(TRIM(DIVERTED), '')
-        AS UNSIGNED
+        AS DECIMAL(10,2)
     ),
 
     CASE
