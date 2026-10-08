@@ -34,7 +34,7 @@ Each member will use at least two basic and two advanced SQL queries to investig
 
 | Member | Analysis Area | Research Questions | Minimum SQL Queries |
 |---|---|---:|---:|
-| Unassigned | Airline delay and on-time performance | 2 | 4 |
+| Audrey Wu | Airline delay and on-time performance | 2 | 4 |
 | Bao Nguyen | Airport and route performance | 2 | 4 |
 | Yanyu Zhu | Cancellation and diversion analysis | 2 | 4 |
 | Arin Gadre | Delay causes and day-of-week patterns | 2 | 4 |
