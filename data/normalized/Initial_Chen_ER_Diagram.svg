@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080"><style>text{font-family:Arial,Helvetica,sans-serif;fill:#263e53}.edge{fill:none;stroke:#005daa;stroke-width:2.5}.entity{fill:#eaf3f9;stroke:#005daa;stroke-width:3}.attribute{fill:white;stroke:#005daa;stroke-width:2}.relationship{fill:#fff8e4;stroke:#bc870d;stroke-width:2.5}</style><rect width="1920" height="1080" fill="white"/><path d="M1330 0h590v410l-170-100-90 80-130-150-130 80-110-170z M1580 0l110 170 100-90 130 140V0z M1780 390l140 80v310l-130-95-100 60-115-130z" fill="#f8f9fa"/><text x="80" y="103" font-size="52" font-weight="bold" style="fill:#005daa">Initial ER Model: Flight Reliability</text><rect x="80" y="128" width="180" height="9" fill="#e5ad23"/><text x="80" y="177" font-size="25" style="fill:#566b7d">Chen notation: entities, attributes, keys, relationships, and 1:N cardinalities</text>
+<polyline points="270,295 185,242" class="edge"/>
+<polyline points="270,295 430,242" class="edge"/>
+<polyline points="900,295 900,242" class="edge"/>
+<polyline points="1590,295 1460,242" class="edge"/>
+<polyline points="1590,295 1730,242" class="edge"/>
+<polyline points="815,365 700,430" class="edge"/>
+<polyline points="790,365 570,510" class="edge"/>
+<polyline points="800,365 650,580" class="edge"/>
+<polyline points="985,365 1100,430" class="edge"/>
+<polyline points="1010,365 1230,510" class="edge"/>
+<polyline points="1000,365 1150,580" class="edge"/>
+<polyline points="780,760 650,710" class="edge"/>
+<polyline points="780,790 650,840" class="edge"/>
+<polyline points="1710,750 1790,690" class="edge"/>
+<polyline points="1710,790 1790,870" class="edge"/>
+<polyline points="390,330 500,330" class="edge"/>
+<polyline points="660,330 780,330" class="edge" transform="translate(0,-4)"/>
+<polyline points="660,330 780,330" class="edge" transform="translate(0,4)"/>
+<polyline points="1020,330 1170,330" class="edge" transform="translate(0,-4)"/>
+<polyline points="1020,330 1170,330" class="edge" transform="translate(0,4)"/>
+<polyline points="1330,330 1470,330" class="edge"/>
+<polyline points="896,365 896,607" class="edge"/>
+<polyline points="904,365 904,607" class="edge"/>
+<polyline points="900,693 900,735" class="edge"/>
+<polyline points="1020,750 1080,700 1170,700" class="edge" transform="translate(0,-4)"/>
+<polyline points="1020,750 1080,700 1170,700" class="edge" transform="translate(0,4)"/>
+<polyline points="1350,700 1410,700 1470,750" class="edge"/>
+<polyline points="1020,790 1080,840 1170,840" class="edge" transform="translate(0,-4)"/>
+<polyline points="1020,790 1080,840 1170,840" class="edge" transform="translate(0,4)"/>
+<polyline points="1350,840 1410,840 1470,790" class="edge"/>
+<rect x="150.0" y="295" width="240" height="70" class="entity"/>
+<text x="270" y="330" text-anchor="middle" dominant-baseline="middle" font-size="27" font-weight="bold">Airline</text>
+<rect x="780.0" y="295" width="240" height="70" class="entity"/>
+<text x="900" y="330" text-anchor="middle" dominant-baseline="middle" font-size="27" font-weight="bold">Flight</text>
+<rect x="1470.0" y="295" width="240" height="70" class="entity"/>
+<text x="1590" y="330" text-anchor="middle" dominant-baseline="middle" font-size="27" font-weight="bold">CalendarDate</text>
+<rect x="780.0" y="735" width="240" height="70" class="entity"/>
+<text x="900" y="770" text-anchor="middle" dominant-baseline="middle" font-size="27" font-weight="bold">Route</text>
+<rect x="1470.0" y="735" width="240" height="70" class="entity"/>
+<text x="1590" y="770" text-anchor="middle" dominant-baseline="middle" font-size="27" font-weight="bold">Airport</text>
+<polygon points="500.0,330 580,287.0 660.0,330 580,373.0" class="relationship"/>
+<text x="580" y="330" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="bold">Operates</text>
+<polygon points="1170.0,330 1250,287.0 1330.0,330 1250,373.0" class="relationship"/>
+<text x="1250" y="330" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="bold">Occurs on</text>
+<polygon points="820.0,650 900,607.0 980.0,650 900,693.0" class="relationship"/>
+<text x="900" y="650" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="bold">Follows</text>
+<polygon points="1170.0,700 1260,657.0 1350.0,700 1260,743.0" class="relationship"/>
+<text x="1260" y="700" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="bold">Origin of</text>
+<polygon points="1170.0,840 1260,797.0 1350.0,840 1260,883.0" class="relationship"/>
+<text x="1260" y="840" text-anchor="middle" dominant-baseline="middle" font-size="21" font-weight="bold">Destination of</text>
+<text x="430" y="310" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">1</text>
+<text x="735" y="310" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">N</text>
+<text x="1060" y="310" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">N</text>
+<text x="1418" y="310" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">1</text>
+<text x="925" y="400" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">N</text>
+<text x="925" y="716" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">1</text>
+<text x="1085" y="675" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">N</text>
+<text x="1410" y="675" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">1</text>
+<text x="1085" y="870" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">N</text>
+<text x="1410" y="870" text-anchor="middle" dominant-baseline="middle" font-size="25" font-weight="bold">1</text>
+<ellipse cx="185" cy="213" rx="95.0" ry="29" class="attribute"/>
+<text x="185" y="213" text-anchor="middle" dominant-baseline="middle" font-size="22" text-decoration="underline" font-weight="bold">AirlineID</text>
+<ellipse cx="430" cy="213" rx="95.0" ry="29" class="attribute"/>
+<text x="430" y="213" text-anchor="middle" dominant-baseline="middle" font-size="22">CarrierCode</text>
+<ellipse cx="900" cy="213" rx="95.0" ry="29" class="attribute"/>
+<text x="900" y="213" text-anchor="middle" dominant-baseline="middle" font-size="22" text-decoration="underline" font-weight="bold">FlightID</text>
+<ellipse cx="1460" cy="213" rx="95.0" ry="29" class="attribute"/>
+<text x="1460" y="213" text-anchor="middle" dominant-baseline="middle" font-size="22" text-decoration="underline" font-weight="bold">FlightDate</text>
+<ellipse cx="1730" cy="213" rx="95.0" ry="29" class="attribute"/>
+<text x="1730" y="213" text-anchor="middle" dominant-baseline="middle" font-size="22">DayOfWeek</text>
+<ellipse cx="700" cy="459" rx="102.5" ry="29" class="attribute"/>
+<text x="700" y="459" text-anchor="middle" dominant-baseline="middle" font-size="22">FlightNumber</text>
+<ellipse cx="570" cy="539" rx="95.0" ry="29" class="attribute"/>
+<text x="570" y="539" text-anchor="middle" dominant-baseline="middle" font-size="22">DepDelay</text>
+<ellipse cx="650" cy="609" rx="95.0" ry="29" class="attribute"/>
+<text x="650" y="609" text-anchor="middle" dominant-baseline="middle" font-size="22">Cancelled</text>
+<ellipse cx="1100" cy="459" rx="95.0" ry="29" class="attribute"/>
+<text x="1100" y="459" text-anchor="middle" dominant-baseline="middle" font-size="22">TailNumber</text>
+<ellipse cx="1230" cy="539" rx="95.0" ry="29" class="attribute"/>
+<text x="1230" y="539" text-anchor="middle" dominant-baseline="middle" font-size="22">ArrDelay</text>
+<ellipse cx="1150" cy="609" rx="95.0" ry="29" class="attribute"/>
+<text x="1150" y="609" text-anchor="middle" dominant-baseline="middle" font-size="22">Diverted</text>
+<ellipse cx="650" cy="710" rx="95.0" ry="29" class="attribute"/>
+<text x="650" y="710" text-anchor="middle" dominant-baseline="middle" font-size="22">Distance</text>
+<ellipse cx="650" cy="840" rx="95.0" ry="29" class="attribute"/>
+<text x="650" y="840" text-anchor="middle" dominant-baseline="middle" font-size="22" text-decoration="underline" font-weight="bold">RouteID</text>
+<ellipse cx="1790" cy="661" rx="95.0" ry="29" class="attribute"/>
+<text x="1790" y="661" text-anchor="middle" dominant-baseline="middle" font-size="22" text-decoration="underline" font-weight="bold">AirportID</text>
+<ellipse cx="1790" cy="899" rx="95.0" ry="29" class="attribute"/>
+<text x="1790" y="899" text-anchor="middle" dominant-baseline="middle" font-size="22">AirportCode</text>
+<text x="80" y="929" font-size="22">All five entities are strong: each has its own key. No weak entity is required by this schema.</text>
+<text x="80" y="960" font-size="19" style="fill:#566b7d">Selected Flight attributes are shown. The following relational schema slide lists all flight-operation attributes.</text>
+<rect x="80" y="985" width="38" height="22" class="entity"/><text x="130" y="1003" font-size="18">Strong entity</text><rect x="295" y="985" width="38" height="22" class="entity"/><rect x="300" y="990" width="28" height="12" fill="none" stroke="#005daa"/><text x="345" y="1003" font-size="18">Weak entity (none)</text><ellipse cx="587" cy="996" rx="26" ry="12" class="attribute"/><text x="625" y="1003" font-size="18">Attribute; underlined = key</text><polygon points="927,996 950,983 973,996 950,1009" class="relationship"/><text x="988" y="1003" font-size="18">Relationship</text><path d="M1165 991h50M1165 1000h50" class="edge"/><text x="1228" y="1003" font-size="18">Total participation</text><text x="1510" y="1003" font-size="18">1:N = one to many</text>
+<line x1="65" y1="1030" x2="1855" y2="1030" stroke="#005daa" stroke-width="2"/><text x="80" y="1063" font-size="20" style="fill:#005daa">9</text><text x="140" y="1063" font-size="20" style="fill:#005daa">DATA 201 | Group 5</text><text x="1650" y="1060" font-size="32" font-weight="bold" style="fill:#123f9c">SJSU</text><text x="1755" y="1047" font-size="13" style="fill:#123f9c">SAN JOSÉ STATE</text><text x="1755" y="1066" font-size="13" style="fill:#123f9c">UNIVERSITY</text></svg>

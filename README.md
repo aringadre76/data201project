@@ -37,7 +37,7 @@ These setup scripts drop and recreate their target tables. Run them when buildin
 | Route | 5,812 |
 | Flight | 544,003 |
 
-The sample database will have smaller counts. See the [ER diagram](data/normalized/Normalized_EER_diagram.png), [normalization notes](data/normalized/Normalization.md), and [validation evidence](data/normalized/normalized_validation.png).
+The sample database will have smaller counts. See the [initial Chen ER diagram](data/normalized/Initial_Chen_ER_Diagram.png) ([editable SVG](data/normalized/Initial_Chen_ER_Diagram.svg)), the [normalized relational schema diagram](data/normalized/Normalized_EER_diagram.png), [normalization notes](data/normalized/Normalization.md), and [validation evidence](data/normalized/normalized_validation.png).
 
 ## Analysis Scripts
 
